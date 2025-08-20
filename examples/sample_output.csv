@@ -1,0 +1,8 @@
+Date,Subject,Task Description,Time Spent,Email ID
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,Checking tracker and tickets,20 min,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,Team meeting and discussion,30 min,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,TLS #49172 - TLS Error,01:25 hrs,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,Discussion with Ritu regarding their ticket,45 min,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,TLS#66638-Require to move TLS project from DCPL framework to DFramework,04:20 hrs,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,Discuss with Aayush regarding #66912,20 min,12345
+2024-01-15T10:30:00,Daily Status Update - 2024-01-15,TLS #66951-System Performance Optimization - DO NOT use lock hints such as NOLOCK/ ROWLOCK,02:20 hrs,12345
