@@ -1,0 +1,48 @@
+[
+  {
+    "email_id": "12345",
+    "subject": "Daily Status Update - 2024-01-15",
+    "date": "2024-01-15T10:30:00",
+    "eod_section": {
+      "section_header": "EOD",
+      "tasks": [
+        {
+          "description": "Checking tracker and tickets",
+          "time_spent": "20 min",
+          "raw_line": "- Checking tracker and tickets-20 min"
+        },
+        {
+          "description": "Team meeting and discussion",
+          "time_spent": "30 min",
+          "raw_line": "- Team meeting and discussion-30 min"
+        },
+        {
+          "description": "TLS #49172 - TLS Error",
+          "time_spent": "01:25 hrs",
+          "raw_line": "- TLS #49172 - TLS Error- 01:25 hrs"
+        },
+        {
+          "description": "Discussion with Ritu regarding their ticket",
+          "time_spent": "45 min",
+          "raw_line": "- Discussion with Ritu regarding their ticket-45 min"
+        },
+        {
+          "description": "TLS#66638-Require to move TLS project from DCPL framework to DFramework",
+          "time_spent": "04:20 hrs",
+          "raw_line": "- TLS#66638-Require to move TLS project from DCPL framework to DFramework-04:20 hrs"
+        },
+        {
+          "description": "Discuss with Aayush regarding #66912",
+          "time_spent": "20 min",
+          "raw_line": "- Discuss with Aayush regarding #66912-20 min"
+        },
+        {
+          "description": "TLS #66951-System Performance Optimization - DO NOT use lock hints such as NOLOCK/ ROWLOCK",
+          "time_spent": "02:20 hrs",
+          "raw_line": "- TLS #66951-System Performance Optimization - DO NOT use lock hints such as NOLOCK/ ROWLOCK-02:20 hrs"
+        }
+      ],
+      "raw_content": "- Checking tracker and tickets-20 min\n- Team meeting and discussion-30 min\n- TLS #49172 - TLS Error- 01:25 hrs\n- Discussion with Ritu regarding their ticket-45 min\n- TLS#66638-Require to move TLS project from DCPL framework to DFramework-04:20 hrs\n- Discuss with Aayush regarding #66912-20 min\n- TLS #66951-System Performance Optimization - DO NOT use lock hints such as NOLOCK/ ROWLOCK-02:20 hrs"
+    }
+  }
+]

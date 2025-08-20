@@ -1,0 +1,42 @@
+# Email Configuration Template
+# Copy this file to config.yaml and fill in your email settings
+
+email:
+  # Email server settings
+  server: "imap.gmail.com"  # Example for Gmail, adjust for your provider
+  port: 993
+  use_ssl: true
+  
+  # Authentication
+  username: "your_email@example.com"
+  password: "your_password_or_app_password"
+  
+  # Email folder to search (usually INBOX)
+  folder: "INBOX"
+
+# EOD Section Detection Settings
+parsing:
+  # Keywords that indicate the start of an EOD section
+  eod_keywords:
+    - "EOD"
+    - "End of Day"
+    - "Daily Summary"
+    - "Task Summary"
+  
+  # Time patterns to detect in task entries
+  time_patterns:
+    - "\\d+\\s*min"          # e.g., "20 min", "30min"
+    - "\\d+:\\d+\\s*hrs?"    # e.g., "01:25 hrs", "04:20 hr"
+    - "\\d+\\.\\d+\\s*hrs?"  # e.g., "1.5 hrs"
+    - "\\d+\\s*hrs?"         # e.g., "2 hrs", "3 hr"
+
+# Output Settings
+output:
+  # Default output format: text, json, or csv
+  default_format: "json"
+  
+  # Include metadata in output
+  include_metadata: true
+  
+  # Output file path (optional, prints to stdout if not specified)
+  file_path: null
